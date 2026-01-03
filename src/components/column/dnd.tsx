@@ -115,7 +115,7 @@ function DndWrapper({ items, setItems, isSingleColumn, children }: PropsWithChil
     })
     setItems(update)
   }, [items, setItems, isSingleColumn])
-  // 避免动画干扰
+  // Animatsiya shovqinlaridan saqlaning
   const { run } = useThrottleFn(onDropTargetChange, {
     leading: true,
     trailing: true,
@@ -152,7 +152,7 @@ function CardOverlay({ id }: { id: SourceID }) {
               </span>
               {sources[id]?.title && <span className={$("text-sm", `color-${sources[id].color} bg-base op-80 bg-op-50! px-1 rounded`)}>{sources[id].title}</span>}
             </span>
-            <span className="text-xs op-70">拖拽中</span>
+            <span className="text-xs op-70">Sudrash</span>
           </span>
         </div>
         <div className={$("flex gap-2 text-lg", `color-${sources[id].color}`)}>
