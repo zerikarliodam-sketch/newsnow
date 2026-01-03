@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 //     <li onClick={toggleDark} className="cursor-pointer [&_*]:cursor-pointer transition-all">
 //       <span className={$("inline-block", isDark ? "i-ph-moon-stars-duotone" : "i-ph-sun-dim-duotone")} />
 //       <span>
-//         {isDark ? "浅色模式" : "深色模式"}
+//         {isDark ? "Light" : "Dark"}
 //       </span>
 //     </li>
 //   )
@@ -55,13 +55,13 @@ export function Menu() {
                 ? (
                     <li onClick={logout}>
                       <span className="i-ph:sign-out-duotone inline-block" />
-                      <span>退出登录</span>
+                      <span>Chiqish</span>
                     </li>
                   )
                 : (
                     <li onClick={login}>
                       <span className="i-ph:sign-in-duotone inline-block" />
-                      <span>Github 账号登录</span>
+                      <span>Github Hisobga kirish</span>
                     </li>
                   ))}
               {/* <ThemeToggle /> */}
