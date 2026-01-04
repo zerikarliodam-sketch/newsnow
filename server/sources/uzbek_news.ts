@@ -1,4 +1,4 @@
-import { defineSource } from "../utils"
+import { defineSource, myFetch } from "../utils" // myFetch ham qo'shildi
 import { load } from "cheerio"
 
 const kunUz = defineSource(async () => {
