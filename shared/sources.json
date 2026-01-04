@@ -1,4 +1,36 @@
 {
+  "kun-uz": {
+    "name": "Kun.uz",
+    "type": "timeline",
+    "column": "world",
+    "home": "https://kun.uz",
+    "url": "https://kun.uz/uz/news/rss",
+    "color": "blue",
+    "interval": 300000,
+    "title": "So'nggi yangiliklar"
+  },
+  "daryo-uz": {
+    "name": "Daryo.uz",
+    "type": "timeline",
+    "column": "world",
+    "home": "https://daryo.uz",
+    "url": "https://daryo.uz/feed/",
+    "color": "yellow",
+    "interval": 300000,
+    "title": "Tezkor xabarlar"
+  },
+  "gazeta-uz": {
+    "name": "Gazeta.uz",
+    "type": "timeline",
+    "column": "world",
+    "home": "https://www.gazeta.uz",
+    "url": "https://www.gazeta.uz/uz/rss/",
+    "color": "cyan",
+    "interval": 600000,
+    "title": "Maqolalar"
+  }
+}
+{
   "v2ex": {
     "redirect": "v2ex-share",
     "name": "V2EX",
