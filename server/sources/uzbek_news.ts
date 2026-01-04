@@ -1,6 +1,8 @@
-import { defineSource, myFetch } from "../utils/index"
+
+import { defineSource, myFetch } from "../utils" // Shunday qoldiring yoki @/server/utils sinab ko'ring
 import { load } from "cheerio"
 
+// ... qolgan o'zbekcha saytlar kodi
 const kunUz = defineSource(async () => {
   const url = "https://kun.uz/uz/news/rss"
   const response = await myFetch(url) as any
