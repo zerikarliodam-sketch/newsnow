@@ -1,4 +1,3 @@
-// Import yo'li o'zgartirildi: ../utils emas, ../utils/index ishlatiladi
 import { defineSource, myFetch } from "../utils/index"
 import { load } from "cheerio"
 
