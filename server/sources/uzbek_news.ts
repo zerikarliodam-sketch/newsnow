@@ -1,4 +1,5 @@
-import { defineSource, myFetch } from "../utils" // myFetch ham qo'shildi
+// Import yo'li o'zgartirildi: ../utils emas, ../utils/index ishlatiladi
+import { defineSource, myFetch } from "../utils/index"
 import { load } from "cheerio"
 
 const kunUz = defineSource(async () => {
