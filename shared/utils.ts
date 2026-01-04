@@ -9,17 +9,17 @@ export function relativeTime(timestamp: string | number) {
   const diffInHours = diffInMinutes / 60
 
   if (diffInSeconds < 60) {
-    return "Hozirgina"
+    return "shunchaki"
   } else if (diffInMinutes < 60) {
     const minutes = Math.floor(diffInMinutes)
-    return `${minutes} daqiqa oldin`
+    return `${minutes}daqiqa oldin`
   } else if (diffInHours < 24) {
     const hours = Math.floor(diffInHours)
-    return `${hours} soat oldin`
+    return `${hours}Bir necha soat oldin`
   } else {
     const month = date.getMonth() + 1
     const day = date.getDate()
-    return `${day}/${month}`
+    return `${month}oy${day}日`
   }
 }
 
@@ -38,3 +38,5 @@ export function randomUUID() {
 export function randomItem<T>(arr: T[]) {
   return arr[Math.floor(Math.random() * arr.length)]
 }
+
+{
